@@ -1,12 +1,13 @@
 body {
-    background: rgb(46, 61, 77);
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
     color: rgb(236, 240, 245);
 }
 .v-align {
+    background: rgb(46, 61, 77);
     display: grid;
-    height: 100vh;
+    height: calc(100vh - 4rem);
+    margin: 2rem;
 }
 .content-wrapper {
     max-width: 1000px;
