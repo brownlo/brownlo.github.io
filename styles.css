@@ -10,14 +10,12 @@ body {
     margin: 2rem;
 }
 .content-wrapper {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
 .family-image {
    border: 15px solid white;
    box-sizing: border-box;
-   max-width: 400px;
    width: 100%;
 }
 .content {
@@ -49,6 +47,7 @@ a:hover {
     
     .content-wrapper {
         display: flex;
+        align-items: center;
         margin: auto;
     }
 
